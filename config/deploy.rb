@@ -1,5 +1,5 @@
 set :application, 'cocca-api'
-set :repo_url, 'https://github.com/dotph/cocca-api.git'
+set :repo_url, 'https://github.com/catameojc/cocca-api.git'
 set :branch, ENV['REVISION'] || ENV['BRANCH'] || proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 set :rails_env, 'production'
 
